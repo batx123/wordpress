@@ -1,0 +1,7 @@
+secretGenerator:
+- name: mysql-pass
+  literals:
+  - password=VMware1!
+resources:
+  - mysql-deployment.yaml
+  - wordpress-deployment.yaml
